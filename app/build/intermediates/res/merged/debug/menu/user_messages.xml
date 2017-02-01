@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" android:visible="false"/>
+    <item
+        android:id="@+id/action_new_msg"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_new_msg"/>
+    <item
+        android:id="@+id/action_refresh_msg"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_refresh_msg" android:visible="false"/>
+    <item
+        android:id="@+id/action_clear_msg"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_input_delete"
+        android:showAsAction="never"
+        android:title="@string/action_clear_msg"/>
+    <item
+        android:id="@+id/action_warr_online"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_warr_online"/>
+    
+</menu>

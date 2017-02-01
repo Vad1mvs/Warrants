@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_select_repairs"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_submit_seals"/>
+    <item
+        android:id="@+id/action_show_seals"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_seals"/>
+    <item
+        android:id="@+id/action_show_seal_cert"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_seal_cert"/>
+    
+</menu>

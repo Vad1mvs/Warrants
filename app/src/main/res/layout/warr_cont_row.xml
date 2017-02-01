@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:background="@drawable/list_selector"
+		android:padding="2dip"> 
+		<TextView
+		    android:id="@+id/lineId"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:visibility="gone"/>
+    <TextView
+		    android:id="@+id/lineEq"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:paddingLeft="4dp"
+		    android:text="Eq"
+		    android:textStyle="bold" />
+		<TextView 
+				android:id="@+id/lineEqState" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+	      android:layout_alignParentTop="true"	      
+		    android:layout_alignParentRight="true"
+		    android:textSize="12dp"
+		    android:text="EqState" />
+		 
+		<CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineEq"
+		    android:layout_below="@+id/lineEq"
+		    android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"/>
+		<TextView
+		    android:id="@+id/lineEqSN"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/checkBox"
+		    android:layout_below="@+id/lineEq"
+		    android:paddingLeft="4dp"
+		    android:textSize="12dp"
+		    android:text="S/N" />
+		
+		 <!-- Rightend Arrow -->
+     <ImageView
+        android:id="@+id/lineArrow"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_right_arrow1" 
+		    android:layout_alignRight="@+id/lineEqState"
+		    android:layout_below="@+id/lineJobState"
+        android:layout_centerVertical="true"/>				
+		
+		<TextView
+		    android:id="@+id/lineJob"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineEqSN"
+		    android:layout_below="@+id/lineEqSN"
+		    android:paddingLeft="4dp"
+		    android:text="Job"
+		    android:textColor="@color/blue"
+		    android:textStyle="bold" />
+
+		<TextView 
+				android:id="@+id/lineJobState" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+		    android:layout_alignRight="@+id/lineEqState"
+		    android:layout_below="@+id/lineEqState"
+		    android:textSize="12dp"
+		    android:text="JobState" />
+		 		
+		<TextView
+		    android:id="@+id/lineRemark"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineEq"
+		    android:layout_below="@+id/lineJob"
+		    android:gravity="left"
+		    android:text="Примечание"
+		    android:textStyle="italic" />
+		<TextView
+		    android:id="@+id/lineJobCntr"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignRight="@+id/lineJobState"
+		    android:layout_below="@+id/lineArrow"
+		    android:text="Cntr"
+		    android:textStyle="bold|italic" />
+		
+</RelativeLayout>

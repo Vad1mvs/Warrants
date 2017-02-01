@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:background="@drawable/list_selector"
+		android:padding="2dip"> 
+
+		<TextView 
+				android:id="@+id/lineSentMsgCntr" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+	      android:layout_alignParentTop="true"
+		    android:layout_alignParentRight="true"
+		    android:textSize="12sp"
+		    android:text="SentCntr" /> 
+
+		<TextView
+		    android:id="@+id/lineEmpName"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/lineSentMsgCntr"
+		    android:gravity="center_horizontal"
+		    android:text="Name"
+		    android:textStyle="bold" />
+
+		 <!-- Rightend Arrow -->
+     <ImageView
+        android:id="@+id/imageArrow"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_right_arrow1" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+     <ImageView
+         android:id="@+id/imageViewEmp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/lineEmpName"
+         android:layout_centerVertical="true"
+         android:src="@drawable/user" />
+
+		<TextView
+		    android:id="@+id/lineRecMsgCntr"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/lineEmpName"
+		    android:layout_alignParentRight="true"
+		    android:layout_gravity="bottom"
+		    android:textSize="12sp"
+		    android:text="RecCntr" />
+
+     
+</RelativeLayout>

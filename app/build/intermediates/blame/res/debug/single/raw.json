@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\7.3.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\7.3.0\\res\\raw\\gtm_analytics"
+    }
+]

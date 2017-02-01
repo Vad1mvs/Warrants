@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WarrantsActivity" >
+	
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:text="@string/hello_world"
+        android:textSize="16.5sp" />
+
+    <ListView
+        android:id="@+id/listViewWarrants"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_alignLeft="@+id/title_text"
+			  android:layout_below="@+id/title_text"
+				android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"
+        android:layout_marginBottom="2dp" />
+     
+  	<Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+			  android:layout_alignParentLeft="true"
+			  android:layout_alignParentBottom="true"  
+        android:text="@string/btn_map" />
+  	<Button
+        android:id="@+id/w_get_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+			  android:layout_alignParentRight="true"
+			  android:layout_alignParentBottom="true"  
+        android:text="@string/btn_get" />  		
+										    
+</RelativeLayout>

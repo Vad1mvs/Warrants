@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                android:id="@+id/rl"
+    android:background="@drawable/bkg4l"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WelcomeActivity" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		    android:paddingTop="10dp"
+    		android:paddingBottom="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+    		android:layout_marginBottom="4dp"
+        android:src="@drawable/utis" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_horizontal"
+        android:text="@string/title_welcome"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:gravity="center_horizontal"
+        android:text="@string/title_soft_welcome"
+        android:textColor="@color/title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewVer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/title_activity_welcome"
+        android:textStyle="italic" />
+    
+    <TextView
+        android:id="@+id/auth_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignLeft="@+id/textViewVer"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/textViewVer"
+        android:text="@string/title_auth" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+	      android:layout_below="@+id/auth_text"
+        android:layout_marginBottom="4dp"
+        android:layout_height="40dp" >
+
+        <TextView
+        	android:id="@+id/requestView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+    </ScrollView>
+    
+    <Button
+       android:id="@+id/auth_name_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="14sp"
+       android:layout_alignLeft="@+id/scrollView1"
+			 android:layout_below="@+id/scrollView1"
+       android:text="@string/btn_auth_name" />				    
+		<Button
+       android:id="@+id/auth_simple_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="14sp"
+       android:layout_alignRight="@+id/scrollView1"
+			 android:layout_below="@+id/scrollView1"
+       android:text="@string/btn_auth_simple" />				    
+    
+
+</RelativeLayout>

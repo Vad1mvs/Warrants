@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit_inventory_num"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_edit_inventory_num"/>
+    <item
+        android:id="@+id/action_edit_cash_num"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_edit_cash_num"/>
+    <item
+        android:id="@+id/action_edit_cash_ip"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_edit_cash_ip"/>
+    <item
+        android:id="@+id/action_edit_modem_ip"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_edit_modem_ip"/>
+    
+</menu>

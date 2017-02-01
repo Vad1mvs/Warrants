@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:background="@drawable/list_selector"
+		android:padding="2dip">
+
+		<TextView
+		    android:id="@+id/empWTTime"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:textSize="16dp"
+		    android:text="time" />
+
+		<TextView
+		    android:id="@+id/empWTModif"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:textSize="16dp"
+		    android:text="mod" />
+ 
+		<TextView
+		    android:id="@+id/empWTCaption"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@id/empWTTime"
+		    android:text="cap"
+		    android:textStyle="bold"
+		    android:visibility="visible" />
+ 
+		<TextView
+		    android:id="@+id/empWTRem"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@id/empWTTime"
+		    android:text="rem"
+		    android:textStyle="italic"
+		    android:visibility="visible" />
+		
+</RelativeLayout>

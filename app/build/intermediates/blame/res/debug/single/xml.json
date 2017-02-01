@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_warrcont_general.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\xml\\pref_warrcont_general.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_warrcont_general.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\xml\\pref_warrcont_general.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\xml\\pref_general.xml"
+    }
+]

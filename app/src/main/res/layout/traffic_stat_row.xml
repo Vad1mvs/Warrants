@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:background="@drawable/list_selector"
+		android:padding="2dip">
+
+		<TextView
+		    android:id="@+id/trafTime"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:text="time"
+		    android:textColor="@color/blue"
+		    android:textSize="12dp"
+		    android:textStyle="bold" />
+
+		<TextView
+		    android:id="@+id/trafRx"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@id/trafTime"
+		    android:text="Rx"
+		    android:textStyle="italic"
+		    android:typeface="monospace" />
+
+		<TextView
+		    android:id="@+id/trafRxData"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@id/trafRx"
+		    android:text="RxD"
+		    android:textStyle="italic"
+		    android:typeface="monospace" />
+
+		<TextView
+		    android:id="@+id/trafTx"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@id/trafTime"
+		    android:text="Tx"
+		    android:textStyle="italic"
+		    android:typeface="monospace" />
+				 		 		
+		<TextView
+		    android:id="@+id/trafTxData"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@id/trafTx"
+		    android:text="TxD"
+		    android:textStyle="italic"
+		    android:typeface="monospace" />
+				
+</RelativeLayout>

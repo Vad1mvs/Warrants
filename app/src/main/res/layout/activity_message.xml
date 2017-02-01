@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient_bg"
+    tools:context=".MessageActivity" >
+
+    <TextView
+        android:id="@+id/sender_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:background="@color/title"
+        android:text="@string/caption_sender"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sender_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="4dp"
+        android:text="@string/caption_send_date"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sender_nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sender_text"
+        android:layout_below="@+id/sender_text"
+        android:paddingBottom="8dp"        
+        android:text="@string/hello_world"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/msg_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/sender_date"
+        android:layout_below="@+id/sender_date"
+        android:text="@string/hello_world"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/title_subj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sender_nm"
+        android:layout_below="@+id/sender_nm"
+        android:background="@color/modified"
+        android:text="@string/caption_subj"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/msg_date_ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sender_nm"
+        android:text="@string/hello_world"
+        android:textStyle="italic" />
+    
+    <TextView
+        android:id="@+id/msg_subj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	      android:layout_alignLeft="@+id/title_subj"
+		    android:layout_below="@+id/title_subj"
+		    android:paddingBottom="8dp"        		    
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/title_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/msg_subj"
+        android:layout_below="@+id/msg_subj"
+        android:background="@color/modified"
+        android:text="@string/caption_msg"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/msg_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	      android:layout_alignLeft="@+id/title_msg"
+		    android:layout_below="@+id/title_msg"
+		    android:paddingBottom="8dp"        		    
+        android:text="@string/hello_world" />
+		
+    <TextView
+        android:id="@+id/bottom_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+			  android:layout_below="@+id/msg_text"
+        android:background="@color/title"
+        android:textSize="2sp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    
+<!-- 		<ImageView
+		    android:id="@+id/imageViewAttachment"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:scaleType="matrix"
+		    android:paddingTop="8dp"
+		    android:layout_centerHorizontal="true"
+		    android:layout_below="@+id/bottom_text" />  -->
+		<com.utis.warrants.ZoomableImageView
+		    android:id="@+id/imageViewAttachment"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:paddingTop="8dp"
+		    android:layout_centerHorizontal="true"
+		    android:layout_below="@+id/bottom_text" />
+		
+    
+</RelativeLayout>

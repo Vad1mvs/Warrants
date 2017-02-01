@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" android:visible="false"/>
+    <item
+        android:id="@+id/action_locations_showmap"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:showAsAction="ifRoom"
+        android:title="@string/btn_map"/>
+    <item
+        android:id="@+id/action_current_location"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:showAsAction="ifRoom"
+        android:title="@string/btn_show_location"/>
+    <item
+        android:id="@+id/action_refresh_list"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_refresh_list" android:visible="false"/>
+    <item
+        android:id="@+id/action_disable_location_service"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/m_enable_location_service"/>
+    
+    
+</menu>

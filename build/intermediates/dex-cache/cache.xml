@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.3.0_22214d7f1c59fcf21ab871d90656803c77ce7392.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.3.0_bbee53e51cd427745b9817c336302d5cca24f9e9.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.3.0_2200f7fc75534c031c38f37ad1ed93a5b72159fc.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.3.0_ac618ea6be53e2376e7d075e1c62c66862204a8f.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.3.0_85cd1f4a89daf7c450a6fdca3dde04603ce7efbf.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.3.0_e5644118ad090c9a994666c526991b028f0d516a.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.3.0_ab233649861f1658df723449b133fa9bbea59ff5.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_c3b73c5a8e6121c8bbdc44779bef1b01b4f43e7d.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.3.0_b65b55e444aad2e1308876da70f23e2a710f10fc.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.3.0_1dd7fbe3838dfedecaa94bd39de14055c55736db.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vadim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_2413fb436523eba8b221e4982f3d3f8ee5f9082a.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\libs\android-integration-2.1-supportv4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4d7f6477e17a2a3725e1395278d48fac0ab81f24">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\android-integration-2.1-supportv4_00284df5bc960040034f90545ae7ae0a02185483.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.3.0_cd9b616245ff799aecb12e60c7b32df6f79ec270.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.3.0_a96dad6c81e0c64763fd5ef05aa0247aa8c91204.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.3.0_67365793471f6f1a34d82c0e65c900a1e13ff169.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.1.1_6700a36cc2ef3af3eba7c8116132a6e249efcc87.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_4c328ed187d9d0ca7deeaef5127d1372ee8f2fda.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.3.0_f1e853841e70b77ba4d05d4c78cf1948041bfa51.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.3.0_063f48c0a1e8ea7db9279ef678caeebee66bddd0.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.3.0_25adbed2a94bf2fb8297a5c76521739e4bd66595.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.3.0_231425ac93e071105821710631f7b0c4480c698f.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.3.0_93cd5c3a2ffb605c3738392ef5e4a8208195c28a.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.3.0_d52942edb8537afdeeac90a4c479773c631a470a.jar" />
+    </item>
+    <item
+        jar="D:\Android\android project\Warrants\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="D:\Android\android project\Warrants\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.3.0_bd52e3c20f79aa2b2263ff0f006e50b5439f672a.jar" />
+    </item>
+
+</items>

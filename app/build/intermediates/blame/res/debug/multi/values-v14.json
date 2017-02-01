@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 77,
+                        "endOffset": 92
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 77,
+                        "endOffset": 92
+                    }
+                }
+            }
+        ]
+    }
+]

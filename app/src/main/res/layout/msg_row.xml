@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <LinearLayout
+        android:id="@+id/back"
+        android:tag="back"
+        style="@style/MyListBackContent">
+    		<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/swipe_button1"
+            style="@style/MyListButtonAction"
+            android:text="Button 1"/>
+    		<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/swipe_button2"
+            style="@style/MyListButtonAction"
+            android:text="Button 2"/>
+    		<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/swipe_button3"
+            style="@style/MyListButtonAction"
+            android:text="Button 3"/> 
+    </LinearLayout>
+    
+		<RelativeLayout  
+		    android:id="@+id/front"
+        android:tag="front"
+        style="@style/MyListFrontContent"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+				android:background="@drawable/list_selector"
+				android:padding="2dip"> 		
+				<TextView
+				    android:id="@+id/lineSender"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentLeft="true"
+				    android:layout_alignParentTop="true"
+				    android:textSize="12sp"
+				    android:text="Sender" />		 
+				<TextView 
+						android:id="@+id/lineDate" 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+			      android:layout_alignParentTop="true"
+				    android:layout_alignParentRight="true"
+				    android:textSize="12sp"
+				    android:text="Date" /> 		 
+				<CheckBox
+		        android:id="@+id/checkBox"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/lineSender"
+				    android:layout_alignParentLeft="true"
+				    android:focusable="false"
+		        android:focusableInTouchMode="false" />				
+				<ImageView
+				    android:id="@+id/imageViewAttachment"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_centerVertical="true"
+				    android:layout_alignTop="@+id/checkBox"
+				    android:layout_toRightOf="@+id/checkBox" />						    
+				<TextView
+				    android:id="@+id/lineSubj"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_alignLeft="@+id/lineSender"
+				    android:layout_below="@+id/lineSender"
+				    android:gravity="center_horizontal"
+				    android:textSize="14sp"
+				    android:text="Тема"
+				    android:textStyle="bold" />		
+				<TextView
+				    android:id="@+id/lineMsg"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_alignLeft="@+id/lineSubj"
+				    android:layout_below="@+id/checkBox"
+				    android:gravity="left"
+				    android:text="Сообщение"
+				    android:textStyle="italic" />		
+				 <!-- Rightend Arrow -->
+		     <ImageView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/gray_right_arrow1" 
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"/>
+		 
+		</RelativeLayout>	
+</FrameLayout>	

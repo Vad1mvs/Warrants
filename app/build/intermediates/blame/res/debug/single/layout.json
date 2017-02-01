@@ -1,0 +1,410 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_traffic_stat.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_traffic_stat.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_work_time.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_work_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\emp_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_kit.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_web_kit.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_photo_select.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_photo_select.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seal_cert_edit.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_seal_cert_edit.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seal_cert_edit.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_seal_cert_edit.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_hwselect.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_hwselect.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warrants_main.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_warrants_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_messages.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bar_scan_warrants.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_bar_scan_warrants.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\msg_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\msg_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warrant_row2.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\warrant_row2.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_job_select.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_job_select.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_msg_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\emp_msg_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\log_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\log_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\seal_cert_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\seal_cert_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_unit.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_unit.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_inputname_dialog.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\fragment_inputname_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_cont.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_cont.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_logs.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_logs.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warrant_row2.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\warrant_row2.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_worktime_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\emp_worktime_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\specs_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\specs_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_compose_new_msg.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_compose_new_msg.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_specs_select.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_specs_select.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_repair.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_repair.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warrant_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\warrant_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_repair.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_repair.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_hwselect.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_hwselect.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_select.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_select.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atest.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_atest.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_glocation.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_glocation.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_job_select.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_job_select.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seal_view.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_seal_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seal_view.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_seal_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warr_unit_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\warr_unit_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bar_scan.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_bar_scan.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_messages.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\log_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\log_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_select.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_select.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\undobar.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\undobar.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_inputname_dialog.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\fragment_inputname_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\location_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\location_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_compose_new_msg.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_compose_new_msg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_msg_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\emp_msg_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_job_group_select.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_job_group_select.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atest.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_atest.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warrant_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\warrant_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_hw_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\emp_hw_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_worktime_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\emp_worktime_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_seal_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\emp_seal_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\undobar.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\undobar.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bar_scan_warrants.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_bar_scan_warrants.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_traffic_stat.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_traffic_stat.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_messages.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_user_messages.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\traffic_stat_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\traffic_stat_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_seal_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\emp_seal_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_list.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\traffic_stat_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\traffic_stat_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_list.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_specs_select.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_specs_select.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_yes_no_dialog.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\fragment_yes_no_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seal_cert_list.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_seal_cert_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_hw_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\emp_hw_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seal_cert_list.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_seal_cert_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_photo_select.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_photo_select.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\db_data.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\db_data.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_unit.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_unit.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_messages.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_user_messages.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warr_unit_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\warr_unit_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_kit.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_web_kit.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_yes_no_dialog.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\fragment_yes_no_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\msg_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\msg_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warr_cont_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\warr_cont_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_job_group_select.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_job_group_select.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warr_cont.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_warr_cont.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\seal_cert_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\seal_cert_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_logs.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_logs.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warr_cont_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\warr_cont_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warr_repair_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\warr_repair_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_glocation.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_glocation.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emp_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\emp_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bar_scan.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_bar_scan.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\db_data.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\db_data.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\warr_repair_row.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\warr_repair_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_warrants_main.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_warrants_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\specs_row.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\specs_row.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emp_work_time.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout\\activity_emp_work_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal"
+		android:background="@drawable/list_selector" 
+		android:padding="2dip"> 
+		<TextView
+		    android:id="@+id/lineJob"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:padding="6dp"
+		    android:text="Job"
+		    android:textStyle="bold" />
+
+		<TextView
+		    android:id="@+id/lineRepairCntr"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toLeftOf="@+id/lineArrowImg"
+		    android:padding ="6dp"
+		    android:layout_alignParentTop="true"
+		    android:text="Cntr"
+		    android:textStyle="bold|italic" />
+		 		 		
+		<CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineJob"
+		    android:layout_below="@+id/lineJob"
+		    android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"/>
+		<TextView
+		    android:id="@+id/lineRemark"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/checkBox"
+		    android:layout_below="@+id/lineJob"
+		    android:text="Примечание"
+		    android:textStyle="italic" />
+		
+		 <!-- Rightend Arrow -->
+     <ImageView 
+        android:id="@+id/lineArrowImg" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_right_arrow1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>				
+				
+</RelativeLayout>

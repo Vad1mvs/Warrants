@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" android:visible="true"/>
+    <item 
+        android:id="@+id/action_show_msgs"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="ifRoom"
+        android:title="@string/btn_msgs" />
+    <item 
+        android:id="@+id/action_show_warr"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:showAsAction="ifRoom"
+        android:title="@string/btn_show_warrs" />
+    <item 
+        android:id="@+id/action_post_warr"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom"
+        android:title="@string/btn_upload" />
+    <item 
+        android:id="@+id/action_show_msgs_list"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="never"
+        android:title="@string/btn_msgs_list" />
+    <item 
+        android:id="@+id/action_send_msgs"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="never"
+        android:title="@string/btn_send_msgs" />
+    <item 
+        android:id="@+id/action_send_worktime"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="never"
+        android:title="@string/btn_send_worktime" />
+    <item 
+        android:id="@+id/action_send_locations"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="never"
+        android:title="@string/btn_send_locations" />
+    <item 
+        android:id="@+id/action_scan_barcode"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="never"
+        android:title="@string/btn_scan_barcode" />
+    <item 
+        android:id="@+id/action_show_webkit"
+        android:icon="@android:drawable/ic_menu_more"
+        android:showAsAction="never"
+        android:title="@string/btn_show_webkit" />
+    <item 
+        android:id="@+id/action_show_location"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="never"
+        android:title="@string/btn_show_location" />
+    
+</menu>

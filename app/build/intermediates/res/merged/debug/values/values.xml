@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="log_level_names">
+        <item>Все</item>
+        <item>Исключение</item>
+        <item>Ошибка</item>
+        <item>Предупреждение</item>
+        <item>Отладка</item>
+        <item>Информация</item>
+    </string-array>
+    <string-array name="pref_location_provider_list_titles">
+        <item>Экономичное</item>
+        <item>Точное</item>
+    </string-array>
+    <string-array name="pref_location_provider_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_server_list_titles">
+        <item>Рабочий</item>
+        <item>Отладочный</item>
+        <item>Произвольный</item>
+    </string-array>
+    <string-array name="pref_server_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_titles">
+        <item>1 минута</item>
+        <item>3 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>30 минут</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <color name="article_title">#3399FF</color>
+    <color name="articlecolor">#3399FF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0066cc</color>
+    <color name="blueback">#99FFFF</color>
+    <color name="cachecolor">#8ad0e8</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="date_color">#999999</color>
+    <color name="dkgreen">#006600</color>
+    <color name="gold">#e6b121</color>
+    <color name="gray">#999999</color>
+    <color name="modified">#16dbce</color>
+    <color name="orange">#ff5500</color>
+    <color name="title">#00468E</color>
+    <color name="transparent">#00000000</color>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#808080</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#0000ee</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="CustomWalletTheme"><attr format="enum" name="windowTransitionStyle"><enum name="slide" value="1"/><enum name="none" value="2"/></attr></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
+    <declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode"><enum name="none" value="0"/><enum name="both" value="1"/><enum name="right" value="2"/><enum name="left" value="3"/></attr><attr format="enum" name="swipeActionLeft"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="enum" name="swipeActionRight"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="reference" name="swipeDrawableChecked"/><attr format="reference" name="swipeDrawableUnchecked"/></declare-styleable>
+    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
+    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/><enum name="donate_with_google" value="4"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">4dp</dimen>
+    <integer name="google_play_services_version">7327000</integer>
+    <string name="accept">Accept</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_add_job">Добавить работу</string>
+    <string name="action_add_photo">Добавить фотографию к сообщению:</string>
+    <string name="action_call_developer">Позвонить разработчику</string>
+    <string name="action_cancel">Отменить</string>
+    <string name="action_change_eq_srl">Заменить с/н</string>
+    <string name="action_change_job">Заменить назначенную работу</string>
+    <string name="action_change_password">Изменить пароль</string>
+    <string name="action_check_all">Отметить все</string>
+    <string name="action_clear_log">Очистить лог</string>
+    <string name="action_clear_msg">Удалить все сообщения</string>
+    <string name="action_complete_job">Отметить</string>
+    <string name="action_del_msg">Удалить сообщение</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_discard_warrant">Отказаться от наряда</string>
+    <string name="action_dont_discard_warrant">Отменить отказ от наряда</string>
+    <string name="action_edit_cash_ip">IP адрес кассы</string>
+    <string name="action_edit_cash_num">Номер кассы</string>
+    <string name="action_edit_inventory_num">Инвентарный номер</string>
+    <string name="action_edit_modem_ip">IP адрес модема</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="action_full_exit">Прекратить работу программы</string>
+    <string name="action_google_map">Показать карту Google</string>
+    <string name="action_help">Помощь</string>
+    <string name="action_mark_all_msg_as_read">Прочитать все</string>
+    <string name="action_mark_job_done">Отметить работу как выполненную</string>
+    <string name="action_mark_msg_as_read">Отметить сообщение как прочитанное</string>
+    <string name="action_msg_choose_recipient">Получатель</string>
+    <string name="action_msg_cntrs">"Сообщений: "</string>
+    <string name="action_msg_senders">"Корреспондентов: "</string>
+    <string name="action_new_msg">Новое сообщение</string>
+    <string name="action_not_send">Не пересылать</string>
+    <string name="action_ok">OK</string>
+    <string name="action_refresh_list">Обновить</string>
+    <string name="action_refresh_log">Обновить лог</string>
+    <string name="action_refresh_msg">Обновить сообщения</string>
+    <string name="action_refresh_warrants">Обновить наряды</string>
+    <string name="action_remark">Комментарий</string>
+    <string name="action_report_warrant">Отметка об отчете</string>
+    <string name="action_resend_marks">Переслать отметки</string>
+    <string name="action_save_msg">Сохранить</string>
+    <string name="action_seal_cert">Справки опломбирования</string>
+    <string name="action_seals">Пломбы</string>
+    <string name="action_send">Переслать</string>
+    <string name="action_send_log">Переслать лог</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_show_emp_mark_time">Показать отметки рабочего времени</string>
+    <string name="action_show_specs">Спецификация</string>
+    <string name="action_sign_in_register">Вход</string>
+    <string name="action_sign_in_short">Вход</string>
+    <string name="action_sign_warrant">Подписать наряд</string>
+    <string name="action_streetview">Показать вид улицы</string>
+    <string name="action_submit_seals">Выбрать</string>
+    <string name="action_warr_online">Переход к онлайн нарядам</string>
+    <string name="address">Адрес:</string>
+    <string name="address_output_string">\%%1$s \%%2$s \%%3$s</string>
+    <string name="app_name">Наряды</string>
+    <string name="btn_add_job">Добавить</string>
+    <string name="btn_add_repair">Добавить</string>
+    <string name="btn_auth_name">Вход по паролю</string>
+    <string name="btn_auth_simple">Автоматический</string>
+    <string name="btn_begin_mark">Начать</string>
+    <string name="btn_cancel">Отменить</string>
+    <string name="btn_confirm">Подтвердить</string>
+    <string name="btn_del_job">Удалить</string>
+    <string name="btn_done">Готово</string>
+    <string name="btn_end_mark">Закончить</string>
+    <string name="btn_get">Загрузка</string>
+    <string name="btn_get_const">Справочники</string>
+    <string name="btn_get_warr">Наряды</string>
+    <string name="btn_map">Карта</string>
+    <string name="btn_mark_job">Отметить</string>
+    <string name="btn_msg_reply">Ответить</string>
+    <string name="btn_msgs">Сообщения</string>
+    <string name="btn_msgs_list">Список сообщений</string>
+    <string name="btn_no">Нет</string>
+    <string name="btn_ok">Подтвердить</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_scan_barcode">Сканер штрихкода</string>
+    <string name="btn_send">Отправить</string>
+    <string name="btn_send_locations">Передача местоположения</string>
+    <string name="btn_send_msgs">Передача сообщений</string>
+    <string name="btn_send_worktime">Передача отметок рабочего времени</string>
+    <string name="btn_show">Показ</string>
+    <string name="btn_show_location">Текущие координаты</string>
+    <string name="btn_show_location_on_map">Показать на карте</string>
+    <string name="btn_show_warrs">Наряды</string>
+    <string name="btn_show_webkit">Загрузить ПО</string>
+    <string name="btn_start_scan">Сканировать</string>
+    <string name="btn_test">Тест WEB</string>
+    <string name="btn_upload">Выгрузка</string>
+    <string name="btn_yes">Да</string>
+    <string name="caption_choose_date">Выберите дату</string>
+    <string name="caption_choose_employee">Выберите получателя сообщения</string>
+    <string name="caption_choose_logview">Выберите тип</string>
+    <string name="caption_choose_specs">Выберите оборудование</string>
+    <string name="caption_choose_specs_group">Выберите группу оборудования</string>
+    <string name="caption_choose_user">Выберите пользователя</string>
+    <string name="caption_choose_warrant">Выберите наряд</string>
+    <string name="caption_clear_data">Очистить данные</string>
+    <string name="caption_data_counters">"Счетчики:"</string>
+    <string name="caption_get_data">Загрузить данные</string>
+    <string name="caption_get_emp_seal">Выберите требуемую пломбу</string>
+    <string name="caption_get_emphw">Выберите требуемую запчасть</string>
+    <string name="caption_get_job">Выберите требуемую работу</string>
+    <string name="caption_job_cntr">"Работ: "</string>
+    <string name="caption_msg">Текст сообщения</string>
+    <string name="caption_no_seal_cert_reasons">Нет справочника причин неисправности РРО</string>
+    <string name="caption_photo">Сделать снимок</string>
+    <string name="caption_ppo_money">Остаток</string>
+    <string name="caption_receiver">Получатель</string>
+    <string name="caption_seal_cert">"Всего справок опломбирования: "</string>
+    <string name="caption_seal_cnt">" (Всего: %d)"</string>
+    <string name="caption_send_date">Отправлено</string>
+    <string name="caption_sender">Отправитель</string>
+    <string name="caption_subj">Тема</string>
+    <string name="caption_to_sign">"Требуется подпись"</string>
+    <string name="caption_warr_cont_info">"Назначено работ: "</string>
+    <string name="caption_warr_repair_info">"Потрачено запчастей: "</string>
+    <string name="caption_warr_signed">"Наряд подписан"</string>
+    <string name="caption_warr_unit_info">"Выполнено работ: "</string>
+    <string name="ch_psw_progress">Меняем пароль…</string>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="commono_google_play_services_api_unavailable_text">This app requires one or more Google Play services that are not currently
+available. Please contact the developer for assistance.</string>
+    <string name="connected">Client connected</string>
+    <string name="connection_error_code">Connection failure error code: %1$d</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_error_disabled">Google Play services is disabled</string>
+    <string name="connection_error_internal">An internal error occurred</string>
+    <string name="connection_error_invalid">The version of Google Play services on this device is not authentic</string>
+    <string name="connection_error_invalid_account">The specified account name is invalid</string>
+    <string name="connection_error_license_check_failed">The app is not licensed to the user</string>
+    <string name="connection_error_message">Connection failure error message: %1$s</string>
+    <string name="connection_error_misconfigured">The application is misconfigured</string>
+    <string name="connection_error_missing">Google Play services is missing</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">A network error occurred</string>
+    <string name="connection_error_outdated">Google Play services is out of date</string>
+    <string name="connection_error_sign_in_required">The user is not signed in</string>
+    <string name="connection_error_unknown">An unknown error occurred</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="date_caption">Установка даты</string>
+    <string name="decline">Decline</string>
+    <string name="deleted">Удалено</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="edit_cash_ip">Введите IP адрес кассы</string>
+    <string name="edit_cash_num">Введите номер кассы</string>
+    <string name="edit_factory_seal">"Заводская пломба: "</string>
+    <string name="edit_factory_seal_off">нет</string>
+    <string name="edit_factory_seal_on">есть</string>
+    <string name="edit_inventory_num">Введите инвентарный номер</string>
+    <string name="edit_modem_ip">Введите IP адрес модема</string>
+    <string name="error_date_seal">Дата опломбирования должна быть больше даты распломбирования</string>
+    <string name="error_field_required">Это поле обязательно</string>
+    <string name="error_get_sign_emp">Ошибка получения имени</string>
+    <string name="error_incorrect_password">Неверный пароль</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_no_defect_info">Необходимо указать информацию о дефекте</string>
+    <string name="error_no_money_info">Необходимо указать остаток денег в кассе</string>
+    <string name="error_psw_new_old">Новый пароль должен отличаться от старого</string>
+    <string name="error_psw_not_match">Пароли не совпадают</string>
+    <string name="error_server">Ошибка сервера</string>
+    <string name="get_address">Получить адрес</string>
+    <string name="get_location">Получить местоположение</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hw_cntr">"Запчастей: "</string>
+    <string name="illegal_argument_exception">Illegal arguments: Latitude %1$.8f Longitude %2$.8f</string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="io_exception_getfromlocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="latitude_longitude">\%%1$.8f; \%%2$.8f</string>
+    <string name="latlng">Lat/Lng:</string>
+    <string name="lbl_cash_num">Касса №</string>
+    <string name="lbl_emps_count">"Сотрудников: "</string>
+    <string name="lbl_invoice">Перемещение №</string>
+    <string name="lbl_rec_msg_cntr">"Кол-во принятых сообщений: "</string>
+    <string name="lbl_sent_msg_cntr">"Кол-во отправленных сообщений: "</string>
+    <string name="lbl_short_rec_msg_cntr">"Принято: "</string>
+    <string name="lbl_short_sent_msg_cntr">"Отправлено: "</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">Location update error. code \%%1$d message \%%2$s</string>
+    <string name="location_update_missing_update">Location update error. No incoming location.</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: \%%1$s</string>
+    <string name="login_progress_signing_in">Входим в систему…</string>
+    <string name="m_action_refresh">Обновить</string>
+    <string name="m_add_comment">Добавить комментарий</string>
+    <string name="m_add_warr_cont">Добавление назначенной работы</string>
+    <string name="m_add_warr_cont_error">"Добавление невозможно! "</string>
+    <string name="m_b_emp_work_time">Отсутствует отметка о начале работы. Создать ее?</string>
+    <string name="m_ch_status">Изменение статуса</string>
+    <string name="m_change_warr_cont">Замена оборудования</string>
+    <string name="m_change_warr_cont_error">"Замена невозможна! "</string>
+    <string name="m_city_odesa">" Одеса"</string>
+    <string name="m_clear_warr">Удаление нарядов</string>
+    <string name="m_cntr">Записей: %d</string>
+    <string name="m_continue">" Продолжить?"</string>
+    <string name="m_date">Дата</string>
+    <string name="m_date_lbl">от</string>
+    <string name="m_db_replication">"Репликация: "</string>
+    <string name="m_defect">Характер неисправности</string>
+    <string name="m_del_warr_cont">Удаление назначенной работы</string>
+    <string name="m_del_warr_cont_unit">Удаление невозможно! Нужно предварительно удалить выполненные работы!</string>
+    <string name="m_del_warr_unit">Удаление выполненной работы</string>
+    <string name="m_del_warr_unit_repair">Удаление невозможно! Нужно предварительно удалить запчасти!</string>
+    <string name="m_del_warr_unit_seals">Удаление данной работы невозможно!</string>
+    <string name="m_dialog_ask">Вопрос</string>
+    <string name="m_dialog_name">Имя</string>
+    <string name="m_disable_conn_service">Отключить сервис подключений</string>
+    <string name="m_disable_location_service">Отключить сервис местоположения</string>
+    <string name="m_e_emp_work_time">Отсутствует отметка об окончании работы. Создать ее?</string>
+    <string name="m_enable_conn_service">Включить сервис подключений</string>
+    <string name="m_enable_location_service">Включить сервис местоположения</string>
+    <string name="m_eq_group">"Групп оборудования: "</string>
+    <string name="m_factory_seal">Есть заводская пломба</string>
+    <string name="m_geo_disabled">Определение координат не разрешено. Перейти в меню настроек?</string>
+    <string name="m_get_warr">Загрузка нарядов</string>
+    <string name="m_interval">"Интервал: "</string>
+    <string name="m_inv_num">"; инв.№: "</string>
+    <string name="m_job_group">"Групп работ: "</string>
+    <string name="m_load_soft">Перед установкой новой версии ПО рекомендуется убедиться, что все изменения сохранены на сервере!</string>
+    <string name="m_location">Текущая позиция: \%%1$.7f/\%%2$.7f</string>
+    <string name="m_location_dist">"\%%s Записей: \%%d; дистанция = \%%.3fкм"</string>
+    <string name="m_location_dist1">"\%%s\nЗаписей: \%%d; дистанция = \%%.3fкм"</string>
+    <string name="m_mark_job_done">Измененить состояние оборудования на \"ИСПРАВНО\"?</string>
+    <string name="m_mark_job_undone">"Отменить выполнение назначенной работы: "</string>
+    <string name="m_my_position">Мое положение</string>
+    <string name="m_myself">Я</string>
+    <string name="m_no_location">Невозможно определить позицию!</string>
+    <string name="m_no_marks2resend">Нет неотправленных отметок</string>
+    <string name="m_num">Номер</string>
+    <string name="m_ppo_money">Остаток денег в кассе</string>
+    <string name="m_read_data">"Считываем данные…"</string>
+    <string name="m_reason">Причина</string>
+    <string name="m_repair_btn">Расход</string>
+    <string name="m_repl_date_fmt">d MMMM yyyy в H:mm</string>
+    <string name="m_seal_broken">РРО распломбирован:</string>
+    <string name="m_seal_set">РРО опломбирован:</string>
+    <string name="m_search">Поиск…</string>
+    <string name="m_send_data">"Передача данных…"</string>
+    <string name="m_send_log">"Готовим лог к передаче…"</string>
+    <string name="m_sign_warr_error">Ошибка поиска ответственного лица</string>
+    <string name="m_sign_warr_no_auth">Ответственное лицо не активировано в системе</string>
+    <string name="m_sign_warr_no_name">Не указано ответственное лицо</string>
+    <string name="m_sign_warrant">Подпись наряда</string>
+    <string name="m_signing_warr_error">Не удалось подписать наряд</string>
+    <string name="m_specs_srv">"Обслуживание c \%%s по \%%s"</string>
+    <string name="m_srl_num">"с/н: \%%s; инв.№: \%%s"</string>
+    <string name="m_start">Приход</string>
+    <string name="m_stop">Уход</string>
+    <string name="m_update_avail">Доступно обновление программы!</string>
+    <string name="m_update_dictionaries">Обновить справочники</string>
+    <string name="m_w_modified">В нарядах есть не сохраненные изменения, которые будут утеряны!</string>
+    <string name="m_wait_answer">"Ожидаем ответ…"</string>
+    <string name="m_warr_cntr">"Нарядов: "</string>
+    <string name="m_warr_cont_exists">Данное оборудование уже присутствует в наряде!</string>
+    <string name="m_warr_id">ИД наряда</string>
+    <string name="m_warr_num">Наряд №</string>
+    <string name="m_warr_wait">ОЖИДАЕМ ЗАГРУЗКУ ВСЕХ НАРЯДОВ…</string>
+    <string name="m_wc_footer">Наряд \%%s \%%s; \n\%%s\n\%%s</string>
+    <string name="m_wt_mark_begin">Отметка начала работ по наряду \%%s</string>
+    <string name="m_wt_mark_end">Отметка окончания работ по наряду \%%s</string>
+    <string name="m_wu_footer">Наряд \%%s;\n\%%s \%%s \%%s;\nОбслуживание c \%%s по \%%s</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="msg_auth_error">Ошибка авторизации</string>
+    <string name="msg_welcome">Добро пожаловать в систему!</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="pref_arbitrary_server_addr">192.168.2.7</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_buttons">Отображать кнопки внизу экрана</string>
+    <string name="pref_description_emp_time_mark">Подсказка об отметках рабочего времени при редактировании наряда</string>
+    <string name="pref_description_info_str">Отображать информацию о наряде под списком назначенных работ</string>
+    <string name="pref_description_logging">Ведется лог работы программы для диагностики ошибок</string>
+    <string name="pref_description_search_str">Отображать строку поиска в окне назначенных работ</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_description_warr_report">Показывать выполненные наряды пока не указано, что выполнен отчет</string>
+    <string name="pref_header_data_sync">Данные &amp; синхронизация</string>
+    <string name="pref_header_general">Общие</string>
+    <string name="pref_header_notifications">Уведомления</string>
+    <string name="pref_key_emp_time_mark">emp_time_mark_checkbox</string>
+    <string name="pref_key_logging">logging_checkbox</string>
+    <string name="pref_key_warr_report">warr_report_checkbox</string>
+    <string name="pref_ringtone_silent">Без звука</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_arbitrary_server_addr">Адрес произвольного сервера</string>
+    <string name="pref_title_buttons">Отображать кнопки</string>
+    <string name="pref_title_connect_2_server">Подключение к серверу</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_emp_time_mark">Отметки рабочего времени</string>
+    <string name="pref_title_info_str">Отображать информацию о наряде</string>
+    <string name="pref_title_location_provider">Определение координат</string>
+    <string name="pref_title_logging">Вести лог работы</string>
+    <string name="pref_title_new_message_notifications">Новые сообщения</string>
+    <string name="pref_title_new_warrants_notifications">Новые наряды</string>
+    <string name="pref_title_ringtone">Сигнал</string>
+    <string name="pref_title_search_str">Строка поиска</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Интервал синхронизации</string>
+    <string name="pref_title_system_sync_settings">Настройки синхронизации</string>
+    <string name="pref_title_vibrate">Вибрация</string>
+    <string name="pref_title_warr_report">Хранить наряды до отчета</string>
+    <string name="prompt2_new_password">Повтор нового пароля</string>
+    <string name="prompt_email">Имя</string>
+    <string name="prompt_msg">Сообщение</string>
+    <string name="prompt_new_password">Новый пароль</string>
+    <string name="prompt_old_password">Старый пароль</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_subj">Тема</string>
+    <string name="request_location_updates_in_progress">Can\'t request location updates, previous request hasn\'t finished</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="selected">Выбрано</string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <string name="suspended">Client suspended</string>
+    <string name="time_caption">Установка времени</string>
+    <string name="title_activity_bar_scan">Сканирование штрихкода</string>
+    <string name="title_activity_compose_new_msg">Новое сообщение</string>
+    <string name="title_activity_connect_settings">Настройки подключения</string>
+    <string name="title_activity_emp_hwselect">Запасные части</string>
+    <string name="title_activity_emp_photo_select">Выбор сотрудника</string>
+    <string name="title_activity_emp_select">Выбор сотрудника</string>
+    <string name="title_activity_emp_work_time">Интервалы рабочего времени</string>
+    <string name="title_activity_eq_select">Выбор оборудования</string>
+    <string name="title_activity_glocation">Местоположение</string>
+    <string name="title_activity_job_group_select">Выбор работы</string>
+    <string name="title_activity_job_select">Выбор работы</string>
+    <string name="title_activity_location">Текущая позиция</string>
+    <string name="title_activity_log">Лог программы</string>
+    <string name="title_activity_login">Вход в систему</string>
+    <string name="title_activity_main">Наряды</string>
+    <string name="title_activity_map">Карта объектов</string>
+    <string name="title_activity_message">Сообщение</string>
+    <string name="title_activity_messages">Мои сообщения</string>
+    <string name="title_activity_seal_cert_edit">Справка опломбирования</string>
+    <string name="title_activity_seal_cert_list">Справки опломбирования</string>
+    <string name="title_activity_seal_view">Пломбы РРО</string>
+    <string name="title_activity_search">Поис нарядов</string>
+    <string name="title_activity_specs_select">Выбор из спецификации</string>
+    <string name="title_activity_traffic_stat">Учет трафика</string>
+    <string name="title_activity_user_messages">Сообщения</string>
+    <string name="title_activity_warr_cont">Назначенные работы</string>
+    <string name="title_activity_warr_list">Наряды загрузка</string>
+    <string name="title_activity_warr_repair">Расход запчастей</string>
+    <string name="title_activity_warr_unit">Выполненные работы</string>
+    <string name="title_activity_warrants">Наряды</string>
+    <string name="title_activity_warrcont_settings">Настройки назначенных работ</string>
+    <string name="title_activity_web_kit">Загрузка ПО</string>
+    <string name="title_activity_welcome">Наряды</string>
+    <string name="title_ask_sure">Вы уверены?</string>
+    <string name="title_auth">Аутентификация</string>
+    <string name="title_b_emp_work_time">Отметка о начале работы</string>
+    <string name="title_change_status">Изменение статуса</string>
+    <string name="title_checked_jobs">Отмеченные работы</string>
+    <string name="title_e_emp_work_time">Отметка об окончании работы</string>
+    <string name="title_geo_alert">Настройки местоположения</string>
+    <string name="title_input_comment">Введите комментарий</string>
+    <string name="title_mark_job_done">Состояние оборудования</string>
+    <string name="title_need_auth">Для дальнейшей работы необходимо пройти аутентификацию!</string>
+    <string name="title_sign_warrant">Подпись наряда</string>
+    <string name="title_soft_welcome">НАРЯДЫ</string>
+    <string name="title_version">"версия программы "</string>
+    <string name="title_welcome">\u00A9 Copyright 2013-15 Фирма ЮТИС</string>
+    <string name="undo">ОТМЕНИТЬ</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">Received an unknown activity request code %1$d in onActivityResult.</string>
+    <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <string name="wt_begin">"Начало: "</string>
+    <string name="wt_cntr">"Отметок: \%%d; \%%s\%%s"</string>
+    <string name="wt_end">"Окончание: "</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="MyListBackContent">
+	       <item name="android:layout_width">fill_parent</item>
+	       <item name="android:layout_height">fill_parent</item>
+	       <item name="android:background">@drawable/background_back</item>
+	       <item name="android:gravity">right</item>
+	   </style>
+    <style name="MyListButtonAction">
+	       <item name="android:layout_margin">5dp</item>
+	         <item name="android:layout_width">80dp</item>
+	       <item name="android:layout_height">30dp</item>
+	 
+	   </style>
+    <style name="MyListFrontContent">
+	       <item name="android:layout_width">fill_parent</item>
+	       <item name="android:layout_height">fill_parent</item>
+	       <item name="android:background">@drawable/background_front</item>
+	       <item name="android:padding">8dp</item>
+	   </style>
+    <style name="MyListImage">
+	       <item name="android:layout_width">64dp</item>
+	       <item name="android:layout_height">64dp</item>
+	       <item name="android:scaleGravity">fill</item>
+	       <item name="android:layout_marginRight">8dp</item>
+	   </style>
+    <style name="MyListTitle">
+	       <item name="android:paddingBottom">8dp</item>
+	       <item name="android:textSize">17sp</item>
+	       <item name="android:textStyle">bold</item>
+	       <item name="android:maxLines">2</item>
+	       <item name="android:ellipsize">end</item>
+	   </style>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48dp</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+</resources>

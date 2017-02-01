@@ -1,0 +1,54 @@
+[
+    {
+        "outputFile": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 295
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 295
+                    }
+                }
+            }
+        ]
+    }
+]

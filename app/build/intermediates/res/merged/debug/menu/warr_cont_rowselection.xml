@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_remark"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_remark"/>
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_delete"/>
+    <item
+        android:id="@+id/action_change_srl"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_change_eq_srl"/>
+    <item
+        android:id="@+id/action_change_job"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:showAsAction="never"
+        android:title="@string/action_change_job"/>
+    <item
+        android:id="@+id/action_mark_job_done"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/action_mark_job_done"/>
+    <item
+        android:id="@+id/action_select_all"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_check_all"/>
+    
+</menu>

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warrants_main1.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warrants_main1.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_list.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_welcome.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout-land\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_repair1.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_repair1.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_repair1.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_repair1.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_unit1.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_unit1.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_cont1.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_cont1.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_unit1.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_unit1.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_list.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warrants_main1.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warrants_main1.xml"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_warr_cont1.xml",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\layout-land\\activity_warr_cont1.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_welcome.xml",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\layout-land\\activity_welcome.xml"
+    }
+]

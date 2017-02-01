@@ -1,0 +1,25 @@
+<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" 
+		android:orientation="vertical" >
+		<TextView
+		    android:id="@+id/txtComment"
+				android:text="@string/title_input_comment" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp" />
+		<EditText
+				android:id="@+id/txtName"
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content" 
+				android:inputType="text"
+				android:imeOptions="actionDone" />
+		<Button
+				android:id="@+id/btnDone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/btn_done" />
+</LinearLayout>

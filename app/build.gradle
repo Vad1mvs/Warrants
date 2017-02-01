@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.utis.warrants"
+        minSdkVersion 10
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-integration-2.1-supportv4.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.google.android.gms:play-services:7.3.0'
+    compile 'com.google.android.gms:play-services-ads:7.3.0'
+    compile 'com.google.android.gms:play-services-identity:7.3.0'
+    compile 'com.google.android.gms:play-services-gcm:7.3.0'
+}

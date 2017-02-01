@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient_bg"
+    tools:context=".SealCertEditActivity" >
+
+		<ScrollView   
+				android:id="@+id/scrollView1"
+		    android:layout_width="match_parent"
+		  	android:layout_height="wrap_content" >     
+		    		
+		    <RelativeLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content" >     
+		
+				    <TextView
+				        android:id="@+id/textViewNum"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/m_num"
+				        android:textSize="18sp"
+				        android:paddingRight="6dp"
+				        android:textColor="@color/blue" />		
+				    <TextView
+				        android:id="@+id/editTextNum"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignParentTop="true"
+				        android:layout_toRightOf="@+id/textViewNum"
+				        style="@android:style/Widget.EditText"
+				        android:textStyle="bold"
+				        android:textColor="@color/gray"
+				        android:textSize="16sp" />		
+				    <TextView
+				        android:id="@+id/textViewDateLbl"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/m_date_lbl"
+				        android:layout_toRightOf="@+id/editTextNum"
+				        android:textSize="18sp"
+				        android:paddingLeft="4dp"
+				        android:textColor="@color/blue" />
+				    <TextView
+				        android:id="@+id/editTextDate"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignParentTop="true"
+				        android:layout_toRightOf="@+id/textViewDateLbl"
+				        style="@android:style/Widget.EditText"
+				        android:textStyle="bold"
+				        android:textColor="@color/gray"
+				        android:textSize="16sp" />		
+		
+				    <TextView
+				        android:id="@+id/textViewSealBrokenCaption"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/m_seal_broken"
+				        android:layout_alignLeft="@+id/textViewNum"
+				        android:layout_below="@+id/editTextNum"
+				        android:textSize="18sp"
+				        android:paddingTop="2dp"
+				        android:paddingRight="6dp"
+				        android:textColor="@color/blue" />		    		    
+		
+				    <TextView
+				        android:id="@+id/textViewSealBrokenDate"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignLeft="@+id/textViewSealBrokenCaption"
+				        android:layout_below="@+id/textViewSealBrokenCaption"
+				        android:paddingRight="6dp"
+				        android:text="date"
+				        style="@android:style/Widget.EditText"
+				        android:textColor="@color/gray"
+				        android:textSize="16sp"
+				        android:textStyle="bold" />
+		
+		 		    <ImageButton
+				        android:id="@+id/imageBtnBrokenTime"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignParentRight="true"
+				        android:layout_below="@+id/editTextNum"
+				        android:contentDescription="@string/time_caption"
+				        android:cropToPadding="true"
+				        android:onClick="selectTimeBroken"
+				        android:src="@drawable/ic_action_time" />		
+				    <ImageButton
+				        android:id="@+id/imageBtnBrokenDate"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_toLeftOf="@+id/imageBtnBrokenTime"
+				        android:layout_below="@+id/editTextNum"
+				        android:contentDescription="@string/date_caption"
+				        android:cropToPadding="true"
+				        android:onClick="selectDateBroken"
+				        android:src="@drawable/ic_action_go_to_today" />  
+				    		    		    		    		    		    										    		    		    
+				    <TextView
+				        android:id="@+id/textViewReasonCaption"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignLeft="@+id/textViewNum"
+				        android:layout_below="@+id/textViewSealBrokenDate"
+				        android:paddingTop="12dp"
+				        android:textSize="18sp"
+				        android:text="@string/m_reason"
+				        android:textColor="@color/blue" />		    
+				    <Spinner
+				        android:id="@+id/spinnerReason"
+				        android:paddingLeft="6dp"
+				        android:layout_width="240dp"
+				        android:layout_height="wrap_content"
+				        android:layout_toRightOf="@+id/textViewReasonCaption"
+				        android:layout_below="@+id/textViewSealBrokenDate"
+				        android:paddingTop="8dp" />
+		
+		 		    <TextView
+		 		        android:id="@+id/textViewReason"
+		 		        android:layout_width="wrap_content"
+		 		        android:layout_height="wrap_content"
+		 		        android:layout_below="@+id/spinnerReason"
+		 		        android:paddingLeft="4dp"
+		 		        android:text="reason"
+		 		        android:textColor="@color/gray"
+		 		        android:textSize="12sp" />
+				    		    		    		    		    
+				    <EditText
+				        android:id="@+id/editTextDefect"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_alignLeft="@+id/textViewNum"
+				        android:layout_below="@+id/textViewReason"
+				        android:layout_toRightOf="@+id/textViewNum"
+				        android:paddingTop="12dp"
+				        android:paddingBottom="12dp"
+				        android:hint="@string/m_defect" />
+				    
+				    <TextView
+				        android:id="@+id/textViewSealSetCaption"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/m_seal_set"
+				        android:layout_alignLeft="@+id/textViewNum"
+				        android:layout_below="@+id/editTextDefect"
+				        android:textSize="18sp"
+				        android:paddingTop="2dp"
+				        android:paddingRight="6dp"
+				        android:textColor="@color/blue" />		    		    
+		
+				    <TextView
+				        android:id="@+id/textViewSealSetDate"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignLeft="@+id/textViewSealSetCaption"
+				        android:layout_below="@+id/textViewSealSetCaption"
+				        android:paddingRight="6dp"
+				        android:text="date"
+				        style="@android:style/Widget.EditText"
+				        android:textColor="@color/gray"
+				        android:textSize="16sp"
+				        android:textStyle="bold" />
+		
+		 		    <ImageButton
+				        android:id="@+id/imageBtnSetTime"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignParentRight="true"
+				        android:layout_below="@+id/editTextDefect"
+				        android:contentDescription="@string/time_caption"
+				        android:cropToPadding="true"
+				        android:onClick="selectTimeSet"
+				        android:paddingTop="8dp"
+				        android:src="@drawable/ic_action_time" />  	
+				    <ImageButton
+				        android:id="@+id/imageBtnSetDate"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_below="@+id/editTextDefect"
+				        android:layout_toLeftOf="@+id/imageBtnSetTime"
+				        android:contentDescription="@string/date_caption"
+				        android:cropToPadding="true"
+				        android:onClick="selectDateSet"
+				        android:paddingTop="8dp"
+				        android:src="@drawable/ic_action_go_to_today" />
+		 		    		        		        
+				    <CheckBox
+				        android:id="@+id/chkBoxFactorySeal"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_alignLeft="@+id/textViewNum"
+				        android:layout_below="@+id/textViewSealSetDate"
+				        android:paddingTop="4dp" 
+				        android:text="@string/m_factory_seal" />		
+				        
+				    <TextView
+				        android:id="@+id/textViewPPOMoneyCaption"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" 
+				        android:text="@string/caption_ppo_money"
+				        android:layout_alignLeft="@+id/textViewNum"
+				        android:layout_below="@+id/chkBoxFactorySeal"
+				        android:textSize="18sp"
+				        android:paddingTop="2dp"
+				        android:paddingRight="6dp"
+				        android:textColor="@color/blue" />		    		    
+				    		    		    		    
+				    <EditText
+				        android:id="@+id/editTextPPOMoney"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_below="@+id/chkBoxFactorySeal"
+				        android:layout_toRightOf="@+id/textViewPPOMoneyCaption"
+				        android:hint="@string/m_ppo_money"
+				        android:inputType="numberDecimal"
+				        android:paddingBottom="6dp"
+				        android:paddingTop="2dp" />
+				        
+				    <TextView
+				        android:id="@+id/textViewSealsCaption"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" 
+				        android:text="@string/title_activity_seal_view"
+				        android:layout_alignLeft="@+id/textViewNum"
+				        android:layout_below="@+id/editTextPPOMoney"
+				        android:textSize="18sp"
+				        android:paddingTop="2dp"
+				        android:visibility="gone"
+				        android:paddingRight="6dp"
+				        android:textColor="@color/blue" />		    		    
+				    		    		    
+				    <Button
+				        android:id="@+id/buttonSeals"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_alignParentLeft="true"
+				        android:layout_below="@+id/editTextPPOMoney"
+				        android:text="@string/title_activity_seal_view" />
+				    <TextView
+				        android:id="@+id/textViewSeals"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" 
+				        android:text="@string/title_activity_seal_view"
+				        android:layout_toRightOf="@+id/buttonSeals"
+				        android:layout_below="@+id/editTextPPOMoney"
+				        android:textSize="14sp"
+				        android:paddingTop="2dp"
+				        android:paddingLeft ="4dp"
+				        android:textColor="@color/black" />		    		    
+				    				    
+				</RelativeLayout>
+		</ScrollView>
+
+    <ListView
+        android:id="@+id/listViewSeals"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scrollView1"
+        android:layout_marginBottom="4dp"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"
+        android:visibility="gone" >
+
+	  </ListView>
+
+		
+</RelativeLayout>

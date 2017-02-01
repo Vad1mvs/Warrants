@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:text="@string/hello_world"
+        tools:context=".MainActivity" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:orientation="vertical" >
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="45dp">
+		        
+		        <EditText
+		            android:id="@+id/send_editText"
+		            android:layout_width="190dp"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:inputType="textMultiLine" />
+		        				                    				
+		        <Button
+		            android:id="@+id/send_button"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/btn_send" />
+		        
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="45dp">
+		        
+		        <EditText
+		            android:id="@+id/receive_editText"
+		            android:layout_width="170dp"
+		            android:layout_height="wrap_content"
+		            android:clickable="false"
+		            android:ems="10"
+		            android:inputType="none" />
+		        			
+		        <Button
+		            android:id="@+id/confirm_button"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/btn_confirm" />
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="45dp">
+		        
+		        <Button
+		            android:id="@+id/test_button"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/btn_test" />
+		        <Button
+		            android:id="@+id/test2_button"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/btn_get" />
+		        <Button
+				        android:id="@+id/test3_button"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/btn_show" />
+		    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

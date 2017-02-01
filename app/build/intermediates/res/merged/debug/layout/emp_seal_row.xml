@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="2dip" >
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/lineSeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/checkBox"
+        android:layout_alignParentTop ="true"
+        android:textSize="14sp"
+        android:text="Seal"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lineSealInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineSeal"
+        android:layout_alignLeft="@+id/lineSeal"
+        android:textSize="11sp"
+        android:text="Info" />
+
+
+</RelativeLayout>

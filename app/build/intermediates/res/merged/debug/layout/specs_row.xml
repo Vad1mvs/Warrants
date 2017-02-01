@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:background="@drawable/list_selector"
+		android:padding="2dip"> 
+
+		<TextView
+		    android:id="@+id/lineEq"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:gravity="center_horizontal"
+		    android:text="Eq"
+		    android:textStyle="bold" />
+
+		<TextView
+		    android:id="@+id/lineId"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:visibility="gone" />
+				
+		<CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineEq"
+		    android:layout_below="@+id/lineEq"
+		    android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"/>
+				
+		<TextView
+		    android:id="@+id/lineEqSN"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/checkBox"
+		    android:layout_below="@+id/lineEq"
+		    android:text="EqSN" />
+		<TextView
+		    android:id="@+id/lineEqPlace"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/lineEq"
+		    android:text="EqPlace" />
+		<TextView
+		    android:id="@+id/lineEqService"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/checkBox"
+		    android:layout_below="@+id/lineEqSN"
+		    android:gravity="left"
+		    android:text="Обслуживание"
+		    android:textSize="12dp"
+		    android:textStyle="italic" />
+
+		<TextView
+		    android:id="@+id/lineCashNum"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/lineEqService"
+		    android:textSize="14dp"
+		    android:text="#Cash" />
+		<TextView
+		    android:id="@+id/lineCashIp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_below="@+id/lineEqService"
+		    android:textSize="14dp"
+		    android:text="CashIp" />
+		<TextView
+		    android:id="@+id/lineModemIp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/lineEqService"
+		    android:textSize="14dp"
+		    android:text="ModemIP" />
+		<Switch 
+		    android:id="@+id/switchFactorySeal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:textSize="12dp"
+		    android:layout_below="@+id/lineCashNum"
+		    android:text="@string/edit_factory_seal"
+		    android:textOn="@string/edit_factory_seal_on"
+		    android:textOff="@string/edit_factory_seal_off"
+		    />				
+		
+</RelativeLayout>

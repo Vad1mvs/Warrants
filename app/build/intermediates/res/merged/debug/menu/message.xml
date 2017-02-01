@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" android:visible="false"/>
+    <item
+        android:id="@+id/action_reply_msg"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="ifRoom"
+        android:title="@string/btn_msg_reply"/>
+    <item
+        android:id="@+id/action_del_msg"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_del_msg"/>
+    
+</menu>

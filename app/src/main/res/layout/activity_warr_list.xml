@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WarrListActivity" >
+
+    <TextView
+       android:id="@+id/title_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+	     android:layout_alignParentLeft="true"
+       android:layout_gravity="center"
+       android:layout_marginBottom="2dp"
+       android:text="@string/caption_data_counters"
+       android:textSize="14.5sp" />
+    <ScrollView
+       android:id="@+id/scrollView1"
+       android:layout_width="match_parent"
+       android:layout_alignLeft="@+id/title_text"
+	     android:layout_below="@+id/title_text"
+       android:layout_height="60dp" >
+
+       <TextView
+          android:id="@+id/textViewWarr"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+    </ScrollView>
+	
+    <ListView
+        android:id="@+id/listViewWarr"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignLeft="@+id/scrollView1"
+			  android:layout_below="@+id/scrollView1"
+			  android:layout_marginLeft="2dp"
+			  android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" >
+    </ListView>
+  
+		<TextView
+        android:id="@+id/textGetWarr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listViewWarr"
+ 		    android:layout_below="@+id/listViewWarr"
+ 		    android:text="@string/caption_get_data" />    
+
+    <Button
+        android:id="@+id/get_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textGetWarr"
+  	    android:layout_below="@+id/textGetWarr"
+        android:text="@string/btn_get_warr" />
+    <Button
+        android:id="@+id/get_const_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textGetWarr"
+		    android:layout_below="@+id/textGetWarr"
+        android:text="@string/btn_get_const" />
+    
+		<TextView
+        android:id="@+id/textClearWarr"
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@+id/get_button"
+ 		    android:layout_below="@+id/get_button"
+ 		    android:text="@string/caption_clear_data"
+        android:layout_height="20dp" />    
+
+    <Button
+        android:id="@+id/w_clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textClearWarr"
+  	    android:layout_below="@+id/textClearWarr"
+        android:text="@string/btn_get_warr" />
+    <Button
+        android:id="@+id/clear_const_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textClearWarr"
+		    android:layout_below="@+id/textClearWarr"
+        android:text="@string/btn_get_const" />
+						    		     
+</RelativeLayout>

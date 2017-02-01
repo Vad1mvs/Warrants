@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_alignParentTop="true"
+              android:id="@+id/linearLayout"
+              android:background="@drawable/gradient_bg"
+              tools:context=".BarScanWarrantsActivity" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backToUpdateForm"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/gradient_bg">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Поиск нарядов по оборудованию."
+                android:id="@+id/tvTitle1"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearName"
+                android:background="@drawable/gradient_bg_done_lt"
+                >
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="ТМЦ"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"
+                    android:id="@+id/textView5"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etName"
+                    android:layout_weight="1"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:hint="Название товара"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/linearListSRL"
+                android:background="@drawable/gradient_bg_done_lt"
+                android:visibility="gone"
+                >
+
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="№ срн"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"
+                    android:id="@+id/textView16"/>
+
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:id="@+id/listSRL"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearSRL"
+                android:background="@drawable/gradient_bg_done_lt"
+                >
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="№ срн"
+                    android:id="@+id/textView6"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/etSRL"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:hint="№ серийный"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearINV"
+                android:background="@drawable/gradient_bg_done_lt"
+                >
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="№ инв"
+                    android:id="@+id/textView7"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/etScancode"
+                    android:layout_weight="1"
+                    android:hint="№ инвентарный"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearFisk"
+                android:background="@drawable/gradient_bg_done_lt"
+                >
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="№ фиск"
+                    android:id="@+id/textView8"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etFisknum"
+                    android:layout_weight="1"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:hint="№ фискальный"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearWarr"
+        android:visibility="gone">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewWarrants"
+            android:background="@drawable/gradient_bg_done_lt"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+

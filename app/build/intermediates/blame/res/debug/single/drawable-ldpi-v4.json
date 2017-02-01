@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\utis_logo.png",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\drawable-ldpi\\utis_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\list1.png",
+        "source": "D:\\AndroidStudioProjects\\Warrants\\app\\src\\main\\res\\drawable-ldpi\\list1.png"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\utis_logo.png",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\drawable-ldpi\\utis_logo.png"
+    },
+    {
+        "merged": "D:\\Android\\android project\\Warrants\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\list1.png",
+        "source": "D:\\Android\\android project\\Warrants\\app\\src\\main\\res\\drawable-ldpi\\list1.png"
+    }
+]

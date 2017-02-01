@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:background="@drawable/list_selector"
+		android:padding="2dip"> 
+
+		<TextView
+		    android:id="@+id/lineNo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:textSize="12sp"
+		    android:text="No" />
+
+		<TextView
+		    android:id="@+id/lineState"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:text="Статус"
+		    android:textSize="12sp"
+		    android:textStyle="italic" />
+ 
+		<TextView 
+				android:id="@+id/lineDate" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+	      android:layout_alignParentTop="true"
+		    android:layout_alignParentRight="true"
+		    android:textSize="12sp"
+		    android:text="Date" /> 
+
+		<TextView
+		    android:id="@+id/lineName"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineNo"
+		    android:layout_below="@+id/lineNo"
+		    android:gravity="center_horizontal"
+		    android:text="Заказчик/Адрес"
+		    android:textStyle="bold" />
+
+		<TextView
+		    android:id="@+id/lineRemark"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineName"
+		    android:layout_below="@+id/lineName"
+		    android:gravity="left"
+		    android:text="Примечание"
+		    android:textStyle="italic" />
+
+		<TextView
+		    android:id="@+id/lineToSign"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/lineRemark"
+		    android:layout_below="@+id/lineRemark"
+		    android:gravity="left"
+		    android:text="Подпись"
+		    android:textColor="@color/blue"
+		    android:textStyle="normal" />
+				
+		 <!-- Rightend Arrow -->
+     <ImageView 
+        android:id="@+id/right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_right_arrow1" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+		
+		<TextView
+		    android:id="@+id/lineCntr"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:layout_toLeftOf="@+id/right_arrow"
+		    android:paddingRight="10px"
+		    android:text="Работ"
+		    android:textSize="14sp"
+		    android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/regl"
+        android:layout_below="@+id/lineRemark"
+        android:layout_toLeftOf="@+id/lineState"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>
